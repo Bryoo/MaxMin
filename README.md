@@ -19,6 +19,12 @@ $ pip install pytest
 
 ```
 
+Alternatively, Install nose
+```
+$ pip install nose
+
+```
+
 ### Using the Code
 
 clone the code from git using this link:
@@ -31,10 +37,15 @@ python3 maxmin.py
 
 ## Executing the tests included
 
+if you've got pytest
 ```
 $ py.test test_max_min.py
 ```
-Alternatively, if you do not have pytest installed but with to, use:
+If you've got nosetests
+```
+$ nosetests test_max_min.py
+```
+Alternatively, if you do not either pytest or nosetest installed, use:
 
 ```
 $ python3 test_max_min.py
